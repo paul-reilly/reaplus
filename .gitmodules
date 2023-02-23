@@ -4,3 +4,12 @@
 [submodule "lib/vcpkg"]
 	path = lib/vcpkg
 	url = https://github.com/microsoft/vcpkg.git
+[submodule "external/helgoboss-midi-cpp"]
+	path = external/helgoboss-midi-cpp
+	url = https://github.com/paul-reilly/helgoboss-midi-cpp.git
+[submodule "external/RxCpp"]
+	path = external/RxCpp
+	url = https://github.com/ReactiveX/RxCpp.git
+[submodule "external/helgoboss-learn-cpp"]
+	path = external/helgoboss-learn-cpp
+	url = https://github.com/paul-reilly/helgoboss-learn-cpp.git
