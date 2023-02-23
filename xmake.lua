@@ -14,7 +14,7 @@ target("reaplus")
     add_defines("NOMINMAX")
     add_includedirs("./include", { public = true})
     add_includedirs("external/reaper",
-        "external/WDL/",
+        "external/WDL/WDL/",
         "external/RxCpp/Rx/v2/src")
     add_packages("boost", "spdlog", "concurrentqueue")
     add_deps("helgoboss-midi", "helgoboss-learn")

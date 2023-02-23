@@ -7,3 +7,6 @@
 [submodule "external/helgoboss-learn-cpp"]
 	path = external/helgoboss-learn-cpp
 	url = https://github.com/paul-reilly/helgoboss-learn-cpp.git
+[submodule "external/WDL"]
+	path = external/WDL
+	url = https://github.com/justinfrankel/WDL.git
