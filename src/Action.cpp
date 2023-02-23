@@ -2,6 +2,7 @@
 #include <memory>
 #include <regex>
 #include <cstring>
+#include <cmath>
 #include <utility>
 #include <reaplus/Action.h>
 #include <reaplus/HelperControlSurface.h>
