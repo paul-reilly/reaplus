@@ -1,9 +1,3 @@
-[submodule "lib/helgoboss-vcpkg-overlays"]
-	path = lib/helgoboss-vcpkg-overlays
-	url = https://github.com/helgoboss/helgoboss-vcpkg-overlays.git
-[submodule "lib/vcpkg"]
-	path = lib/vcpkg
-	url = https://github.com/microsoft/vcpkg.git
 [submodule "external/helgoboss-midi-cpp"]
 	path = external/helgoboss-midi-cpp
 	url = https://github.com/paul-reilly/helgoboss-midi-cpp.git
