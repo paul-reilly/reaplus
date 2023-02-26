@@ -45,7 +45,7 @@ namespace reaplus {
     return Action(*this, kbdCmd.cmd, index);
   }
 
-  bool reaplus::operator==(const Section& lhs, const Section& rhs) {
+  bool operator==(const Section& lhs, const Section& rhs) {
     return lhs.sectionInfo_ == rhs.sectionInfo_;
   }
 }

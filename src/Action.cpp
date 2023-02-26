@@ -120,7 +120,7 @@ namespace reaplus {
     }
   }
 
-  bool reaplus::operator==(const Action& lhs, const Action& rhs) {
+  bool operator==(const Action& lhs, const Action& rhs) {
     if (lhs.runtimeData_ && rhs.runtimeData_) {
       return lhs.runtimeData_->section == rhs.runtimeData_->section
           && lhs.runtimeData_->commandId == rhs.runtimeData_->commandId;

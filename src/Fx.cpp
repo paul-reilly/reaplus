@@ -49,7 +49,7 @@ namespace reaplus {
     return isInputFx_;
   }
 
-  bool reaplus::operator==(const Fx& lhs, const Fx& rhs) {
+  bool operator==(const Fx& lhs, const Fx& rhs) {
     if (lhs.track_ != rhs.track_ || lhs.isInputFx_ != rhs.isInputFx_) {
       return false;
     }
@@ -153,7 +153,7 @@ namespace reaplus {
     reaper::TrackFX_SetPresetByIndex(track_.mediaTrack(), queryIndex(), presetIndex);
   }
 
-  bool reaplus::operator!=(const Fx& lhs, const Fx& rhs) {
+  bool operator!=(const Fx& lhs, const Fx& rhs) {
     return !(lhs == rhs);
   }
 

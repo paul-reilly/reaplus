@@ -28,11 +28,12 @@ namespace reaplus {
     return reaper::GetMIDIInputName(id_, dummy, 0);
   }
 
-  bool reaplus::operator==(const MidiInputDevice& lhs, const MidiInputDevice& rhs) {
+  bool operator==(const MidiInputDevice& lhs, const MidiInputDevice& rhs) {
     return lhs.id_ == rhs.id_;
   }
 
-  bool reaplus::operator!=(const MidiInputDevice& lhs, const MidiInputDevice& rhs) {
+  bool operator!=(const MidiInputDevice& lhs, const MidiInputDevice& rhs) {
     return !(lhs == rhs);
   }
 }
+

@@ -78,11 +78,11 @@ namespace reaplus {
     }
   }
 
-  bool reaplus::operator==(const FxChain& lhs, const FxChain& rhs) {
+  bool operator==(const FxChain& lhs, const FxChain& rhs) {
     return lhs.track_ == rhs.track_ && lhs.isInputFx_ == rhs.isInputFx_;
   }
 
-  bool reaplus::operator!=(const FxChain& lhs, const FxChain& rhs) {
+  bool operator!=(const FxChain& lhs, const FxChain& rhs) {
     return !(lhs == rhs);
   }
 

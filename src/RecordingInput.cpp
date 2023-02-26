@@ -59,7 +59,8 @@ namespace reaplus {
     }
   }
 
-  bool reaplus::operator==(const RecordingInput& lhs, const RecordingInput& rhs) {
+  bool operator==(const RecordingInput& lhs, const RecordingInput& rhs) {
     return lhs.recInputIndex_ == rhs.recInputIndex_;
   }
 }
+

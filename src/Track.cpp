@@ -375,7 +375,7 @@ namespace reaplus {
     return mediaTrack_ != nullptr;
   }
 
-  bool reaplus::operator!=(const Track& lhs, const Track& rhs) {
+  bool operator!=(const Track& lhs, const Track& rhs) {
     return !(lhs == rhs);
   }
 
